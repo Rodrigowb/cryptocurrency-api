@@ -16,8 +16,10 @@ router.get('/cryptocurrencies/year/:year', cryptocurrencyController.getByCreatio
 router.get('/cryptocurrencies/creators/:creators', cryptocurrencyController.getByCreators);
 // Update (put)
 router.put('/cryptocurrencies/id/:id', cryptocurrencyController.updateById);
+router.put('/cryptocurrencies/symbol/:symbol', cryptocurrencyController.updateBySymbol)
 // Delete (delete)
 router.delete('/cryptocurrencies/id/:id', cryptocurrencyController.deleteById);
+router.delete('/cryptocurrencies/symbol/:symbol', cryptocurrencyController.deleteBySymbol);
 
 // Export router
 export default router;

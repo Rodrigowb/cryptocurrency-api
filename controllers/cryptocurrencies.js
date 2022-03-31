@@ -1,7 +1,4 @@
-// TODO: set more update properties
-// TODO: set more delet properties
 // TODO: set error handlers
-
 // Import the model
 import cryptocurrenciesModel from "../models/cryptocurrency.js";
 
@@ -45,10 +42,20 @@ let cyptocurrencyController = {
       .findByIdAndUpdate(request.params.id, request.body, { new: true })
       .then(result => response.json(result))
   },
+  updateBySymbol(request, response) {
+    cryptocurrenciesModel
+      .updateOne(request.params, request.body, { new: true })
+      .then(result => response.json(result))
+  },
   // Delete (D)
   deleteById(request, response) {
     cryptocurrenciesModel
       .findByIdAndRemove(request.params.id)
+      .then(result => response.json(result))
+  },
+  deleteBySymbol(request, response) {
+    cryptocurrenciesModel
+      .deleteOne(request.params)
       .then(result => response.json(result))
   }
 }
