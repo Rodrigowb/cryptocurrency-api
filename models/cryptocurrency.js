@@ -24,7 +24,7 @@ let Cryptocurrencies = new Schema({
 })
 
 // Create a model
-let cryptocurrenciesModel = mongoose.model("cryptocurrenciesModel", Cryptocurrencies),
+let cryptocurrenciesModel = mongoose.model("cryptocurrenciesModel", Cryptocurrencies)
 
 // Export model
 export default cryptocurrenciesModel;

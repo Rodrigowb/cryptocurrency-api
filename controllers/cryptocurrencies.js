@@ -8,6 +8,12 @@ import cryptocurrenciesModel from "../models/cryptocurrency.js";
 
 // Create the CRUD controller
 let cyptocurrencyController = {
+  // Create (C)
+  create(request, response) {
+    cryptocurrenciesModel
+      .create(request.body)
+      .then(result => response.json(result))
+  },
   // Read (R)
   getAll(request, response) {
     cryptocurrenciesModel
