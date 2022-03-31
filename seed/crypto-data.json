@@ -4,7 +4,7 @@
     "symbol": "BTC",
     "image": "https://s.yimg.com/uc/fin/img/reports-thumbnails/1.png",
     "creationYear": 2009,
-    "crators": ["Satoshi Nakamoto"]
+    "creators": ["Satoshi Nakamoto"]
   },
   {
     "token": "Ethereum",
