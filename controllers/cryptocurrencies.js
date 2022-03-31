@@ -1,4 +1,3 @@
-// TODO: set more read properties
 // TODO: set more update properties
 // TODO: set more delet properties
 // TODO: set error handlers
@@ -28,6 +27,16 @@ let cyptocurrencyController = {
   getBySymbol(request, response) {
     cryptocurrenciesModel
       .find({ symbol: request.params.symbol })
+      .then(result => response.json(result))
+  },
+  getByCreationYear(request, response) {
+    cryptocurrenciesModel
+      .find({ creationYear: request.params.year })
+      .then(result => response.json(result))
+  },
+  getByCreators(request, response) {
+    cryptocurrenciesModel
+      .find({ creators: request.params.creators })
       .then(result => response.json(result))
   },
   // Update (U)
