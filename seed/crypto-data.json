@@ -1,0 +1,37 @@
+[
+  {
+    "token": "Bitcoin",
+    "symbol": "BTC",
+    "image": "https://s.yimg.com/uc/fin/img/reports-thumbnails/1.png",
+    "creationYear": 2009,
+    "crators": ["Satoshi Nakamoto"]
+  },
+  {
+    "token": "Ethereum",
+    "symbol": "ETH",
+    "image": "https://s.yimg.com/uc/fin/img/reports-thumbnails/1027.png",
+    "creationYear": 2013,
+    "creator": ["Vitalik Buterim"]
+  },
+  {
+    "token": "1inch Network",
+    "symbol": "1INCH",
+    "image": "ttps://s.yimg.com/uc/fin/img/reports-thumbnails/8104.png",
+    "creationYear": 2019,
+    "creator": ["Sergej Kunz", "Anton Bukov"]
+  },
+  {
+    "token": "Tether",
+    "symbol": "USDT",
+    "image": "https://s.yimg.com/uc/fin/img/reports-thumbnails/825.png",
+    "creationYear": 2014,
+    "creator": ["Aaron MacGregor", "Craig Sellars"]
+  }
+  {
+    "token": "Binance Coin",
+    "symbol": "BNB",
+    "image": "https://s.yimg.com/uc/fin/img/reports-thumbnails/1839.png",
+    "creationYear": "2017",
+    "creator": ["Changpeng Zhao"]
+  }
+]
