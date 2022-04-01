@@ -9,6 +9,7 @@ let cyptocurrencyController = {
     cryptocurrenciesModel
       .create(request.body)
       .then(result => response.json(result))
+      .catch
   },
   // Read (R)
   getAll(request, response) {
