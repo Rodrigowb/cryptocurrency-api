@@ -14,41 +14,41 @@ This project aims to create a REST API using backend tools in Node.js. It was us
 
 # Files description
 
-## /db/connection.js
+## db/connection.js
 
 Set the connection with Mongodb and event listener for feedback about the connection.
 
-## /models/cryptocurrency.js
+## models/cryptocurrency.js
 
 Create a Mongoose schema, that is sort of a validator about the data that can be contained on the database and a model, which is a schema constructor.
 
-## /controllers/cryptocurrencies.js
+## controllers/cryptocurrencies.js
 
 Create a controller for them database model. It defines the callback functions of the API endpoints.
 
-## /routes/cryptocurrency.js
+## routes/cryptocurrency.js
 
 Create the API endpoints, setting the CRUD parameters for the client access the API, by creating, reading, updating and deleting data.
 
-## /routes/index.js
+## routes/index.js
 
 Manage all the routers from our API and allows the application to scale, if It needs more database models and routers.
 
-## /seed/crypto-data.json
+## seed/crypto-data.json
 
 Sample JSON file with the initial information to seed the database.
 
-## /seed/seed.js
+## seed/seed.js
 
 Create the initial content on the Mongodb, using the predefined structure created on the models and using the crypto-data.json file.<br/>
 **BE AWARE: this file must be run only once or if you are in a development environment. It drops all the database and seed it with the seeding json file.**
 
-## /server.js
+## server.js
 
 **Main file to run the project.** </br>
 Set the connection with the server and setting all the middlewares, and creating event listeners for server connection feedback.
 
-## /package.json
+## package.json
 
 Set the dependencies of the project and the commands to run files.
 
