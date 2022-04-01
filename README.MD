@@ -38,7 +38,7 @@ Create the API endpoints, setting the CRUD parameters for the client access the 
 
 Manage all the routers from our API and allows the application to scale, if It needs more database models and routers.
 
-## seed/crypto-data.json
+## crypto-data.json
 
 Sample JSON file with the initial information to seed the database.
 

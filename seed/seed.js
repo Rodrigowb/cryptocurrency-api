@@ -4,7 +4,7 @@ import cryptocurrenciesModel from "../models/cryptocurrency.js"
 
 // Importing the json file to seed the database
 import fs from "fs"
-let rawData = fs.readFileSync('./crypto-data.json');
+let rawData = fs.readFileSync('../crypto-data.json');
 let parsedData = JSON.parse(rawData);
 
 // Seeding the database
