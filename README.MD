@@ -8,6 +8,10 @@ E-mail: <boaventurarodrigo@yahoo.com.br> <br />
 Git hub profile: <https://github.com/Rodrigowb> <br />
 Linkedin profile: <https://www.linkedin.com/in/rodrigowanderleyboaventura> <br />
 
+# Deployed project
+
+https://rodrigo-crypto-api.herokuapp.com/api/
+
 # About the project
 
 This project aims to create a REST API using backend tools in Node.js. It was used Mondodb for the non-relational database, Mongoose for interaction with the database and Express for interaction with the server.
@@ -97,8 +101,6 @@ DELETE: `/cryptocurrencies/id/:id`
 ## Delete the token data by symbol
 
 DELETE: `/cryptocurrencies/symbol/:symbol`
-
-# How to use this API?
 
 # Technologies used
 
