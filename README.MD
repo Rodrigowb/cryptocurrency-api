@@ -50,10 +50,62 @@ Set the connection with the server and setting all the middlewares, and creating
 
 ## package.json
 
-Set the dependencies of the project and the commands to run files.
+Set the dependencies of the project and the script to run the main file.
 
-# API documentation
+# API endpoints
+
+## Base endpoint
+
+`https://localhost/api`
+
+## Create new token data
+
+POST: `/cryptocurrencies`
+
+## Get all the API data
+
+GET: `/cryptocurrencies`
+
+## Get the tokens data by Id
+
+GET: `/cryptocurrencies/id/:id`
+
+## Get the tokens data by symbol
+
+GET: `/cryptocurrencies/symbol/:symbol`
+
+## Get the tokens data by creation year
+
+GET: `/cryptocurrencies/year/:year`
+
+## Get the tokens data by creators name
+
+GET: `/cryptocurrencies/creators/:creators`
+
+## Update the tokens data by Id
+
+PUT: `/cryptocurrencies/id/:id`
+
+## Update the tokens data by symbol
+
+PUT: `/cryptocurrencies/symbol/:symbol`
+
+## Delete the token data by Id
+
+DELETE: `/cryptocurrencies/id/:id`
+
+## Delete the token data by symbol
+
+DELETE: `/cryptocurrencies/symbol/:symbol`
 
 # How to use this API?
 
 # Technologies used
+
+1. Command Line
+2. Node.js
+3. Express
+4. Mongodb
+5. Mongoose
+6. REST API
+7. Git
