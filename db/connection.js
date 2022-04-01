@@ -3,7 +3,7 @@ import mongoose from "mongoose"
 import chalk from "chalk"
 
 // Set the uri (production || development)
-const MONGODB_URI = process.env.PROD_MONGODB || "mongodb://127.0.0.1:27017/cryptocurrencies";
+const MONGODB_URI = process.env.DB_URL || "mongodb://127.0.0.1:27017/cryptocurrencies";
 
 // Set to return the updated db when receives a request
 mongoose.set("returnOriginal", false);
