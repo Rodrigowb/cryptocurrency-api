@@ -10,7 +10,7 @@ let parsedData = JSON.parse(rawData);
 // Seeding the database
 const insertData = async () => {
   // Drop db
-  await db.dropDatabase();
+  // await db.dropDatabase();
   // Insert the data
   await cryptocurrenciesModel.insertMany(parsedData);
   // Close connection 
